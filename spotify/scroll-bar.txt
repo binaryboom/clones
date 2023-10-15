@@ -1,0 +1,22 @@
+/* For Webkit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 20px; /* Roundness of the thumb */
+}
+
+/* For Firefox */
+/* Note: Firefox currently supports a limited set of properties */
+/* For full support, use pseudo-elements like ::-moz-scrollbar-thumb and ::-moz-scrollbar-track */
+/* See: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-scrollbar */
+
+/* For Edge and Internet Explorer */
+/* Note: Edge and IE have limited support for scrollbar customization */
+/* You may need to use proprietary properties and pseudo-elements for full customization */

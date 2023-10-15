@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- icon -->
+    <link rel="icon" href="logo.png">
+    <!-- g fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar hide">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-brands fa-spotify fa-xl"></i>
+                    <a href="#" style="padding:0px;opacity: 1;"><b>Spotify</b></a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-house fa-lg"></i>
+                    <a href="#" style="opacity: 1;">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <a href="#">Search</a>
+                </div>
+
+            </div>
+
+            <div class="library " style="padding: 0.5rem;">
+                <div class="options">
+                    <div class="nav-option">
+                        <i class="fa-solid fa-lines-leaning fa-lg" style="padding-left: 1.25rem;"></i>
+                        <a href="#">Your Library</a>
+                        <i class="fa-solid fa-plus fa-lg"></i>
+                    </div>
+
+                    <div class="pl-pod">
+                        <div class="pl">
+                            <div class="plheader">Create your first playlist</div>
+                            <div class="plcontent">It's easy, we'll help you</div>
+                            <buttton class="pl-button">Create playlist</buttton>
+                        </div>
+                        <div class="pod">
+                            <div class="podheader">Let's find some podcast to follow</div>
+                            <div class="podcontent">We'll keep you updated on new episodes</div>
+                            <buttton class="pod-button">Browse podcasts</buttton>
+                        </div>
+                    </div>
+
+
+                    <div class="otherOptions">
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                    <button class="lang"><i class="fa-solid fa-globe"></i>&nbspEnglish</button>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="stickyNav">
+                <div class="n1">
+                    <div class="nav-option mob-logo">
+                        <i class="fa-brands fa-spotify fa-xl"></i>
+                        <a href="#" style="padding:0px;opacity: 1;"><b>Spotify</b></a>
+                    </div>
+                    <img src="backward_icon.png" class="nav-back-icon" alt="left-arrow">
+                    <img src="forward_icon.png" class="hide" alt="right-arrow">
+                </div>
+                <div class="n2">
+                    <button class="navButton hide">Explore Premium</button>
+                    <button class="navButton2 hide"><i class="fa-regular fa-circle-down fa-xl"></i><a
+                            href="https://play.google.com/store/apps/details?id=com.spotify.music"
+                            target="_blank">Install App</a></button> &nbsp
+                    <button class="navButton3"><i class="fa-solid fa-user"></i></button>
+                    &nbsp&nbsp
+                </div>
+            </div>
+            <div class="cards">
+                <!-- cards1 -->
+                <h2 style="padding-left: 10px;">Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" class="cardImg" alt="card1">
+                        <!-- <i class="fa-solid fa-circle-play" class="card-play-icon" style="color: #1ed760;"></i> -->
+                        <div class="card-title">Top 50 - Global</div>
+                        <div class="card-info">Your daily updates of most played tracks</div>
+                    </div>
+                    <div class="card">
+                        <img src="card2img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Mahiye Jinna Sohna</div>
+                        <div class="card-info">Darshan Raval</div>
+                    </div>
+                </div>
+                <!-- cards2 -->
+                <h2 style="padding-left: 10px;">Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card13img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Race 3 Mashup</div>
+                        <div class="card-info">Deep Money , Neha Bhasin</div>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Naa Reddy</div>
+                        <div class="card-info">Aniruddha Ravichander</div>
+                    </div>
+
+                    <div class="card">
+                        <img src="card5img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Top Songs Global</div>
+                        <div class="card-info">Your daily updates of most played tracks</div>
+                    </div>
+                </div>
+                <h2 style="padding-left: 10px;">Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card6img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Top Songs - India</div>
+                        <div class="card-info">Your daily updates of most played tracks</div>
+                    </div>
+                    <div class="card">
+                        <img src="card7img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Chaleya</div>
+                        <div class="card-info">Arijit Singh</div>
+                    </div>
+                    <div class="card">
+                        <img src="card8img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Bekhayali</div>
+                        <div class="card-info">Sachet Tandon</div>
+                    </div>
+                    <div class="card">
+                        <img src="card9img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Shayad</div>
+                        <div class="card-info">Pritam , Arijit Singh</div>
+                    </div>
+                    <div class="card">
+                        <img src="card10img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">What Jhumka ?</div>
+                        <div class="card-info">Pritam , Arijit Singh</div>
+                    </div>
+                    <div class="card">
+                        <img src="card11img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Dilbar</div>
+                        <div class="card-info">Neha Kakkar , Tanishk Bagchi</div>
+                    </div>
+                    <div class="card">
+                        <img src="card12img.jpeg" class="cardImg" alt="card1">
+                        <div class="card-title">Kesariya</div>
+                        <div class="card-info">Arijit Singh, Amitabh Bhattacharya</div>
+                    </div>
+                </div>
+            </div>
+            <!-- cards end here -->
+            <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+            <footer>
+                <div class="line"></div>
+                <div class="legal">
+                    <ul class="list">
+                        <p class="section-title">Companies</p>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the records</a></li>
+                    </ul>
+
+                    <ul class="list">
+                        <p class="section-title">Communities</p>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+                    <ul class="list">
+                        <p class="section-title">Useful Links</p>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free mobile app</a></li>
+                    </ul>
+                    <div class="foot-icons">
+                        <i class="fa-brands fa-instagram"></i> &nbsp
+                        <i class="fa-brands fa-twitter"></i> &nbsp
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="copyright">
+                    © 2023 Spotify AB
+                </div>
+            </footer>
+        </div>
+        <div class="mplayer">
+            <div class="album">
+                <div class="music-img">
+                    <img src="card12img.jpeg" alt="">
+                </div>
+                <div class="current-playing">
+                    <div class="music-title">
+                        <h5>&nbsp Kesariya (Brahmastra)</h5>
+                    </div>
+                    <div class="music-content hide">
+                        <h6> &nbsp Arijit Singh ,Amitabh Bhattacharya </h6>
+                    </div>
+                </div>
+                <div class="music-fav hide"><i class="fa-solid fa-heart " style="color: #ff0000;"></i></div>
+
+            </div>
+            <div class="player">
+                <div class="player-icons">
+                    <img src="player_icon1.png" alt="">
+                    <img src="player_icon2.png" alt="">
+                    <img src="player_icon3.png" class="p-icon3"
+                        style=" opacity: 1;height: 25px; width:30px; padding: 10px;" alt="">
+                    <img src="player_icon4.png" alt="">
+                    <img src="player_icon5.png" alt="">
+                </div>
+                <div class="playBar"><span> 01:30 &nbsp</span><input type="range" id="play-bar" name="volume" min="0"
+                        max="100" value="50"><span> &nbsp 03:33 </span></div>
+                <!-- <div class="play-bar"><img src="play_musicbar.png" alt=""> -->
+            </div>
+            <div class="controls">
+                <div class="ctrl-icons hide">
+                    <div class="i1"><i class="fa-brands fa-youtube fa-lg"></i></div>
+                    <div class="i1"><i class="fa-solid fa-microphone-lines fa-lg"></i></div>
+                    <div class="i1"><i class="fa-solid fa-grip-lines fa-lg"></i></div>
+                    <div class="i1"><i class="fa-solid fa-computer fa-lg"></i> </div>
+                    <div class="i1"><i class="fa-solid fa-volume-high fa-lg"></i></div>
+                    <div class="i1"><i class="fa-regular fa-window-restore fa-lg"></i></div>
+                </div>
+            </div>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- code snippet to create 2 cards -->
+<!-- <h2 style="padding-left: 10px;">Recently Played</h2>
+<div class="card-container">
+    <div class="card">
+        <img src="card1img.jpeg" class="cardImg" alt="card1">
+        <div class="card-title">Top 50 - Global</div>
+        <div class="card-info">Your daily updates of most played tracks</div>
+    </div>
+    <div class="card">
+        <img src="card1img.jpeg" class="cardImg" alt="card1">
+        <div class="card-title">Top 50 - Global</div>
+        <div class="card-info">Your daily updates of most played tracks</div>
+    </div>
+</div> -->
