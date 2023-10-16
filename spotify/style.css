@@ -590,3 +590,21 @@ margin-top: -50px;
     }
     
 }
+
+ /* for poco m3 */
+@media (min-width:300px) and ((min-height:600px) and (max-height:799px)) {
+    .copyright{
+        padding-bottom: 200px;
+    }
+    .card{
+        transform: scale(0.97);
+        margin: 2.65px;
+        /* margin-bottom: 15px; */
+    }
+    .player{
+        transform: scale(0.8);
+    }
+    .card:hover{
+        transform:scale(1.02) ;
+    }
+}
